@@ -22,7 +22,6 @@ form.addEventListener('submit', (e) => {
   } else {
     pswdError.innerHTML = '';
   }
-
   if (name.value && password.value) {
     if (name.value === 'Abhijeet') {
       errorElement.innerHTML = '';
