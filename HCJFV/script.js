@@ -24,7 +24,6 @@ form.addEventListener('submit', (e) => {
   }
 
   if (name.value && password.value) {
-    console.log()
     if (name.value === 'Abhijeet') {
       errorElement.innerHTML = '';
     } else {
