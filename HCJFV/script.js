@@ -13,6 +13,7 @@ form.addEventListener('submit', (e) => {
   } else {
     nameError.innerHTML = '';
   }
+
   if (!password.value) {
     pswdError.innerHTML = 'Password is required';
   } else if (password.value.length <= 6) {
